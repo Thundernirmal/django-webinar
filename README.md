@@ -23,24 +23,12 @@ Run the downloaded Installer to install python as any other software in windows.
 
 ##### Step 3: Check Installation
 
-open a powershell window and run `python --version` to check if python is installed.
+open a cmd window and run `python --version` to check if python is installed.
 the output should be something like
 
 ```
 Python 3.8.2
 ```
-
-#### USING WSL(WINDOWS SUBSYSTEM FOR LINUX)
-
-Go to the following [link](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to find the instructions for setting up wsl1 on your windows 10 machine.
-
-Now before you could install python on wsl you need to [initialize your distro instance once](https://docs.microsoft.com/en-us/windows/wsl/initialize-distro), before it can be used.
-
-after you have initialized your distro once. Fire up wsl and run the following command to install python(same as any linux installation).
-
-`sudo apt install python3`
-
-after a succesful installation run `python --version` to see if it has been correctly installed.
 
 #### UBUNTU
 
